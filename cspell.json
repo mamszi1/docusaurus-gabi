@@ -1,0 +1,21 @@
+{
+  "version": "0.2",
+  "language": "en,hu", 
+  "words": [
+    "Docusaurus",
+    "Petstore",
+    "Swagger",
+    "frontmatter",
+    "navbar",
+    "sidebar",
+    "workflow",
+    "github",
+    "mdx"
+  ],
+  "ignorePaths": [
+    "node_modules/**",
+    "build/**",
+    ".docusaurus/**",
+    "package-lock.json"
+  ]
+}
