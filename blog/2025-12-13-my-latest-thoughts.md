@@ -8,9 +8,7 @@ date: 2025-12-13
 
 We often talk about code quality, unit tests, and linting for our software. But what about the documentation?
 
-This is the first section that appears in the summary.
-``
-This part is visible only when clicking on it.
+`<!-- truncate -->`
 
 Recently, I realized that **broken links and typos damage user trust just as much as a runtime error.** That's why I decided to upgrade my Docusaurus workflow to include automated quality checks.
 
