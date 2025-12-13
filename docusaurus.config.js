@@ -31,7 +31,8 @@ const config = {
   projectName: 'docusaurus-gabi', // Usually your repo name.
   trailingSlash: false,
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
+  onBrokenAnchors: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -109,7 +110,7 @@ const config = {
       navbar: {
         title: 'Gabi Site',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Gabi Site Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -146,7 +147,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Tutorials',
                 to: '/docs/tutorials/intro',
               },
             ],
